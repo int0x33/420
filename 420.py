@@ -204,7 +204,7 @@ def pwn(url):
             site = url
             paraname = []
             paravalue = []
-            wordlist = 'wordlist_test.txt'
+            wordlist = 'wordlist.txt'
             payloads = []
             wordlistimport(wordlist,payloads)
             lop = str(len(payloads))
